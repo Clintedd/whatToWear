@@ -1,11 +1,3 @@
-//hair: (IN "20XX")
-//eyes: (meet)
-//mouth: (celebrity)
-//upperbody: (country)
-//lowerbody: (for, while, )
-//footwear: (what you are doing)
-
-
 
 // In (2030) you will (meet) (Donald Trump) in (France) (for) (tweeting an abusurd image online)
 // In (2030) you will (fight) (Anderson Silva) in (USA) (while) (eating a 20day old pizza)
@@ -56,7 +48,7 @@ const footwears = {
     bareFoot: ["trying to fry an egg with someone else's body heat"],
     snickers: ["tweeting Danny's secret"],
     converse: ["breaking someone's neck highfiving"],
-    dressShoes: ["wht"],
+    dressShoes: ["hurling chimpanzee's feces that were thrown at you"],
     highHeels: ["wi"]
 }
 
@@ -66,7 +58,14 @@ const randomItemInArray = function (array) {
 };
 
 $(function() {
+    $('.questions').hide();
+    
+    $('.start-button').on('click', function(e) {
+        e.preventDefault();
 
+        $('.first-section').hide();
+        $('.questions').fadeIn(600);
+    })
     $('form').on('submit', function(e) {
         e.preventDefault();
         const hair = $('input[name=hairstyle]:checked').val();
@@ -93,10 +92,11 @@ $(function() {
         console.log(hairFortune, eyeFortune, mouthFortune, upperFortune, lowerFortune, footFortune);
         $('body').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
 
-        //add the hide();
-        
     });
+
+    $()
 })
 
+//
 
 
