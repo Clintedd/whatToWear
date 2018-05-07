@@ -20,10 +20,10 @@ const eyes = {
 
 const mouths = {
     sufix: "in",
-    bareMouth: ["Donald Trump", "Robert Downey Jr", "Danny Pack", "Heather Payne"],
+    bareMouth: ["Donald Trump", "Robert Downey Jr", "Danny Pack", "Nicky Minaj"],
     lipstick: ["Ryan Christiani", "Ryan Gosling", "DJ.Khalid(cuz another one)"],
     beard: ["Kim Jong Un", "Justin Bieber", "Drake"],
-    mustache: ["weio"]
+    mustache: ["Kiera "]
 }
 
 const upperBodys = {
@@ -36,20 +36,20 @@ const upperBodys = {
 }
 
 const lowerBodys = {
-    bareLower: ["sd"],
+    bareLower: ["because you were"],
     shorts: ["after"],
     jeans: ["for"],
     skirt: ["while"],
-    dressPants: ["qw"],
-    yogaPants: ["asd"]
+    dressPants: ["for"],
+    yogaPants: ["after"]
 }
 
 const footwears = {
-    bareFoot: ["trying to fry an egg with someone else's body heat"],
-    snickers: ["tweeting Danny's secret"],
-    converse: ["breaking someone's neck highfiving"],
-    dressShoes: ["hurling chimpanzee's feces that were thrown at you"],
-    highHeels: ["wi"]
+    bareFoot: ["trying to fry an egg with someone else's body heat", "firing someone just because that person had a bad B/O", "finding nemo", "congratulating "],
+    snickers: ["tweeting Danny's secret", "fighting a bearcub for your last piece of them precious popeyes chicken", "listening to drake try to sing 'My heart will go on' on the show, 'Dancing with the Stars' that nobody watches"],
+    converse: ["breaking someone's neck highfiving", "telling a kid Santa never bothered to visit his house because his mom's cookies were bad", "butchering a song with your voice"],
+    dressShoes: ["hurling chimpanzee's feces that were thrown at you", "acting like a sassy old lady", "picking your nose"],
+    highHeels: ["eating the last piece of chocolate that were given to orphans", "eating popeyes allday erday", "showing South Park to your 8 year old son thinking its a kid's show"]
 }
 
 const randomItemInArray = function (array) {
