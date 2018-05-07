@@ -98,7 +98,7 @@ $(function() {
 
         
 
-        $('.result__div__div').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
+        $('.result__div__div').append(`<h3>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h3>`)
 
         $('.result').fadeIn(2000);
         
