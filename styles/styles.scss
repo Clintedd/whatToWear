@@ -1,6 +1,8 @@
 @import "setup";
 @import "responsive";
 
+
+
 body {
     background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/background-img2.jpg) center;
     // background: linear-gradient(lightskyblue, azure);
@@ -18,20 +20,22 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1920px;
     padding: 0 20px;
+    width: 65%
+
 }
 
 .header-div {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50px;
     border: 1px solid white;
-    padding: 20px;
+    padding: 10px 10px;
     margin: 50px;
 }
 
 .first-section {
-    height: 100vh;
+    height: 97vh;
     text-align: center;
 
     & h1 {
@@ -54,13 +58,13 @@ body {
 
 .first-section h1 {
     padding-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 input[type="submit"] {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 30%;
     height: 50px;
     border-bottom: 5px solid steelblue;
     border-top: none;
@@ -90,9 +94,8 @@ h1 {
 }
 
 fieldset {
-    font-family: 'Quattrocento Sans', sans-serif;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Indie Flower', sans-serif;
+    // background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 100px;
     width: 70%;
     margin-left: auto;
@@ -102,18 +105,64 @@ fieldset {
     flex-direction: column;
 }
 
+.hair {
+    background-color: rgba(98, 203, 203, 0.4);
+}
+
+.eyes {
+    background-color: rgba(83, 150, 198, 0.4);
+}
+
+.mouths {
+    background-color: rgba(133, 214, 146, 0.4);
+}
+
+.upperBodys {
+    background-color: rgba(200, 91, 122, 0.4);
+}
+
+.lowerBodys {
+    background-color: rgba(121, 137, 210, 0.4);
+}
+
+.footwears {
+    background-color: rgba(198, 83, 188, 0.4);
+}
+
+
+
+label {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+input[type="radio"] {
+    margin-left: 30px; 
+}
+
+.fieldset__div {
+    padding-left: 60px;
+
+    display: flex;
+    flex-direction: column;
+}
+
 
 fieldset h3 {
     font-size: 30px;
+    text-align: center;
+    color: rgb(201, 241, 255);
 }
 
 .submit-button {
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .result {
-    height: 100vh;
+    height: 97vh;
     padding-top: 300px;
 
     &__div {
@@ -122,6 +171,15 @@ fieldset h3 {
         background: rgba(255, 255, 255, 0.5);
         border-radius: 50px;
         padding: 50px 40px;
+        font-family: 'Indie Flower', cursive;
+
+        & h2 {
+            font-size: 40px;
+        }
+
+        & h3 {
+            font-size: 25px;
+        }
     }
 }
 
@@ -129,16 +187,95 @@ fieldset h3 {
     margin: 0;
 }
 
+.twitterBtn {
+    text-align: center;
+}
+
+@media (max-width: 1180px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .first-section h1{
+        margin-bottom: 80px;
+    }
+
+    input[type="submit"] {
+        width: 30%;
+    }
+}
+
+@media (max-width: 960px) {
+    .first-section {
+        & h1 {
+            font-size: 50px;
+        }
+    }
+
+    .wrapper {
+        width: 95%;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+    }
+}
+
 @media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+
     .first-section {
         & h1 {
             font-size: 40px;
-            padding-top: 30px;
-            margin-bottom: 50px;
+            padding-top: 90px;
+            margin-bottom: 100px;
         }
 
         &__div--h3 {
-            font-size: 18px;
+            font-size: 15px;
+            padding: 15px;
         }
+    }
+
+    .header-div {
+
+    }
+
+    .header-div h1 {
+        font-size: 25px;
+    }
+
+    fieldset {
+        width: 95%;
+    }
+
+    form h3 {
+        font-size: 21px; 
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input[type="radio"] {
+        margin-left: 0; 
+    }
+
+    input[type="submit"] {
+        width: 50%;
+    }
+
+    .submit-button {
+        font-size: 20px;
+    }
+
+    .fieldset__div {
+        padding-left: 50px;
+    }
+
+    .result {
+        padding-top: 200px;
     }
 }
