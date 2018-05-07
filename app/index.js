@@ -12,7 +12,7 @@ const hairs = {
 
 const eyes = {
     prefix: "you will",
-    bareEyes: ["meet", "make fun of"],
+    bareEyes: ["meet", "be made fun of by"],
     glasses: ["break dance with", "play peekaboo with"],
     sunGlasses: ["greet", "fight"],
     contactLenses: ["bite", "sue"]
@@ -45,7 +45,7 @@ const lowerBodys = {
 }
 
 const footwears = {
-    bareFoot: ["trying to fry an egg with someone else's body heat", "firing someone just because that person had a bad B/O", "finding nemo", "congratulating "],
+    bareFoot: ["trying to fry an egg with someone else's body heat", "firing someone just because that person had a bad B/O", "finding nemo", "fighting with your 3 year old daughter"],
     snickers: ["tweeting Danny's secret", "fighting a bearcub for your last piece of them precious popeyes chicken", "listening to drake try to sing 'My heart will go on' on the show, 'Dancing with the Stars' that nobody watches"],
     converse: ["breaking someone's neck highfiving", "telling a kid Santa never bothered to visit his house because his mom's cookies were bad", "butchering a song with your voice"],
     dressShoes: ["hurling chimpanzee's feces that were thrown at you", "acting like a sassy old lady", "picking your nose"],
