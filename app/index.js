@@ -91,11 +91,16 @@ $(function() {
         const lowerFortune = randomItemInArray(chosenLowerBody);
         const footFortune = randomItemInArray(chosenFootwear);
 
+        
+
 
         $('.questions').hide();
-        $('.result').fadeIn(2000);
 
-        $('.result__div').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
+        
+
+        $('.result__div__div').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
+
+        $('.result').fadeIn(2000);
         
     });
 
