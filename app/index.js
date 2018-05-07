@@ -59,13 +59,15 @@ const randomItemInArray = function (array) {
 
 $(function() {
     $('.questions').hide();
+    $('.result').hide();
     
     $('.start-button').on('click', function(e) {
         e.preventDefault();
 
         $('.first-section').hide();
-        $('.questions').fadeIn(600);
+        $('.questions').fadeIn(1000);
     })
+
     $('form').on('submit', function(e) {
         e.preventDefault();
         const hair = $('input[name=hairstyle]:checked').val();
@@ -89,9 +91,12 @@ $(function() {
         const lowerFortune = randomItemInArray(chosenLowerBody);
         const footFortune = randomItemInArray(chosenFootwear);
 
-        console.log(hairFortune, eyeFortune, mouthFortune, upperFortune, lowerFortune, footFortune);
-        $('body').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
 
+        $('.questions').hide();
+        $('.result').fadeIn(2000);
+
+        $('.result__div').append(`<h2>${hairs.prefix} ${hairFortune}, ${eyes.prefix} ${eyeFortune} ${mouthFortune} ${mouths.sufix} ${upperFortune} ${lowerFortune} ${footFortune}</h2>`)
+        
     });
 
     $()

@@ -1,13 +1,18 @@
 @import "setup";
 
 body {
-    // background: url(../images/background-img2.jpg) center;
-    background: linear-gradient(lightskyblue, azure);
-    // background-repeat: no-repeat;
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../images/background-img2.jpg) center;
+    // background: linear-gradient(lightskyblue, azure);
+    background-repeat: no-repeat;
+    height: 100%;
     // background-size: contain;
-    // background-attachment: fixed;
+    background-size: cover;
     
 
+}
+
+.box-shadow {
+    box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.4);
 }
 
 .wrapper {
@@ -22,6 +27,33 @@ body {
     border: 1px solid white;
     padding: 20px;
     margin: 50px;
+}
+
+.first-section {
+    height: 100vh;
+    text-align: center;
+
+    & h1 {
+        font-size: 75px;
+    }
+
+    &__div--h3 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 27px;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.first-section > * {
+    margin: 0;
+}
+
+.first-section h1 {
+    padding-top: 100px;
+    margin-bottom: 200px;
 }
 
 h1 {
@@ -44,6 +76,7 @@ fieldset {
     flex-direction: column;
 }
 
+
 fieldset h3 {
     font-size: 30px;
 }
@@ -56,4 +89,21 @@ fieldset h3 {
     margin: 0 auto;
     padding: 30px;
     text-align: center;
+}
+
+.result {
+    height: 100vh;
+    padding-top: 300px;
+
+    &__div {
+        text-align: center;
+        border: 1px solid white;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 50px;
+        padding: 50px 40px;
+    }
+}
+
+.result > * {
+    margin: 0;
 }

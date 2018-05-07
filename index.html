@@ -12,8 +12,11 @@
     <div class="wrapper">
         <section class="first-section">
             <h1>Fashion Fortune Teller</h1>
-            <h3>Sick of not knowing what will happen tomorrow? Worry not! This website will tell you what will happen in your futre.</h3>
-            <input class="start-button" type="submit" value="Start!">
+            <div class="first-section__div--h3 box-shadow">
+                <h3>Sick of not knowing what will happen tomorrow? </h3>
+                <h3>This website will tell you what will happen in your future.</h3>
+                <input class="start-button" type="submit" value="Start!">
+            </div>
         </section>
         <section class="questions">
             <header>
@@ -23,79 +26,52 @@
             </header>
             <main>
                 <form action="">
-                    <fieldset class="hair">
+                    <fieldset class="hair box-shadow">
                         <h3>What's your hairdo?</h3>
-                        <input type="radio" name="hairstyle" id="short" value="short">
-                        <label for="shortHair">Short Hair</label>
-                        <input type="radio" name="hairstyle" id="long" value="long">
-                        <label for="longHair">Long Hair</label>
-                        <input type="radio" name="hairstyle" id="medium" value="medium">
-                        <label for="mediumHair">Medium Hair</label>
-                        <input type="radio" name="hairstyle" id="curly" value="curly">
-                        <label for="curlyHair">Curly Hair</label>
+                        <label for="shortHair"><input class="radio-checkbox" type="radio" name="hairstyle" id="short" value="short" checked>Short Hair</label>
+                        <label for="longHair"><input class="radio-checkbox" type="radio" name="hairstyle" id="long" value="long">Long Hair</label>
+                        <label for="mediumHair"><input class="radio-checkbox" type="radio" name="hairstyle" id="medium" value="medium">Medium Hair</label>
+                        <label for="curlyHair"><input class="radio-checkbox" type="radio" name="hairstyle" id="curly" value="curly">Curly Hair</label>
                     </fieldset>
-                    <fieldset class="eyes">
+                    <fieldset class="eyes box-shadow">
                         <h3>How are your eyes?</h3>
-                        <input type="radio" name="eyestyle" id="bareEyes" value="bareEyes">
-                        <label for="bareEyes">Bare Eyes</label>
-                        <input type="radio" name="eyestyle" id="glasses" value="glasses">
-                        <label for="glasses">Four Eyes</label>
-                        <input type="radio" name="eyestyle" id="sunGlasses" value="sunGlasses">
-                        <label for="sunGlasses">Tinted Four Eyes</label>
-                        <input type="radio" name="eyestyle" id="contactLenses" value="contactLenses">
-                        <label for="contactLenses">Plastic Eyes</label>
+                        <label for="bareEyes"><input class="radio-checkbox" type="radio" name="eyestyle" id="bareEyes" value="bareEyes" checked>Bare Eyes</label>
+                        <label for="glasses"><input class="radio-checkbox" type="radio" name="eyestyle" id="glasses" value="glasses">Four Eyes</label>
+                        <label for="sunGlasses"><input class="radio-checkbox" type="radio" name="eyestyle" id="sunGlasses" value="sunGlasses">Tinted Four Eyes</label>
+                        <label for="contactLenses"><input class="radio-checkbox" type="radio" name="eyestyle" id="contactLenses" value="contactLenses">Plastic Eyes</label>
                     </fieldset>
-                    <fieldset class="mouths">
+                    <fieldset class="mouths box-shadow">
                         <h3>What's that around your mouth???</h3>
-                        <input type="radio" name="mouthstyle" id="bareMouth" value="bareMouth">
-                        <label for="bareMouth">Bare Mouth 👄</label>
-                        <input type="radio" name="mouthstyle" id="lipstick" value="lipstick">
-                        <label for="lipstick">Lipstick 💄</label>
-                        <input type="radio" name="mouthstyle" id="beard" value="beard">
-                        <label for="beard">Beard </label>
-                        <input type="radio" name="mouthstyle" id="mustache" value="mustache">
-                        <label for="mustache">Mustache 👨</label>
+                        <label for="bareMouth"><input class="radio-checkbox" type="radio" name="mouthstyle" id="bareMouth" value="bareMouth" checked>Bare Mouth 👄</label>
+                        <label for="lipstick"><input class="radio-checkbox" type="radio" name="mouthstyle" id="lipstick" value="lipstick">Lipstick 💄</label>
+                        <label for="beard"><input class="radio-checkbox" type="radio" name="mouthstyle" id="beard" value="beard">Beard </label>
+                        <label for="mustache"><input class="radio-checkbox" type="radio" name="mouthstyle" id="mustache" value="mustache">Mustache 👨</label>
                     </fieldset>
-                    <fieldset class="upperBodys">
+                    <fieldset class="upperBodys box-shadow">
                         <h3>Top yo!</h3>
-                        <input type="radio" name="upperbodystyle" id="bareUpper" value="bareUpper">
-                        <label for="bareUpper">NOTHING</label>
-                        <input type="radio" name="upperbodystyle" id="longsleevs" value="longsleevs">
-                        <label for="longsleevs">Long Sleevs</label>
-                        <input type="radio" name="upperbodystyle" id="tankTop" value="tankTop">
-                        <label for="tankTop">Tank Top</label>
-                        <input type="radio" name="upperbodystyle" id="dressShirt" value="dressShirt">
-                        <label for="dressShirt">Dress Shirt</label>
-                        <input type="radio" name="upperbodystyle" id="blouse" value="blouse">
-                        <label for="blouse">Blouse</label>
+                        <label for="bareUpper"><input class="radio-checkbox" type="radio" name="upperbodystyle" id="bareUpper" value="bareUpper" checked>NOTHING</label>
+                        <label for="longsleevs"><input class="radio-checkbox" type="radio" name="upperbodystyle" id="longsleevs" value="longsleevs">Long Sleevs</label>
+                        <label for="tankTop"><input class="radio-checkbox" type="radio" name="upperbodystyle" id="tankTop" value="tankTop">Tank Top</label>
+                        <label for="dressShirt"><input class="radio-checkbox" type="radio" name="upperbodystyle" id="dressShirt" value="dressShirt">Dress Shirt</label>
+                        <label for="blouse"><input class="radio-checkbox" type="radio" name="upperbodystyle" id="blouse" value="blouse">Blouse</label>
                     </fieldset>
-                    <fieldset class="lowerBodys">
+                    <fieldset class="lowerBodys box-shadow">
                         <h3>Bottom yo!</h3>
-                        <input type="radio" name="lowerbodystyle" id="bareLower" value="bareLower">
-                        <label for="bareLower">NOTHING</label>
-                        <input type="radio" name="lowerbodystyle" id="shorts" value="shorts">
-                        <label for="shorts">Shorts</label>
-                        <input type="radio" name="lowerbodystyle" id="jeans" value="jeans">
-                        <label for="jeans">Jeans</label>
-                        <input type="radio" name="lowerbodystyle" id="skirt" value="skirt">
-                        <label for="skirt">Skirt</label>
-                        <input type="radio" name="lowerbodystyle" id="dressPants" value="dressPants">
-                        <label for="dressPants">Dress Pants</label>
-                        <input type="radio" name="lowerbodystyle" id="yogaPants" value="yogaPants">
-                        <label for="yogaPants">Yoga Pants</label>
+                        <label for="bareLower"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="bareLower" value="bareLower" checked>NOTHING</label>
+                        <label for="shorts"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="shorts" value="shorts">Shorts</label>
+                        <label for="jeans"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="jeans" value="jeans">Jeans</label>
+                        <label for="skirt"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="skirt" value="skirt">Skirt</label>
+                        <label for="dressPants"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="dressPants" value="dressPants">Dress Pants</label>
+                        <label for="yogaPants"><input class="radio-checkbox" type="radio" name="lowerbodystyle" id="yogaPants" value="yogaPants">Yoga Pants</label>
                     </fieldset>
-                    <fieldset class="footwears">
+                    <fieldset class="footwears box-shadow">
                         <h3>WHAT ARE THOOOOSEEE!!!??!</h3>
-                        <input type="radio" name="footwearstyle" id="bareFoot" value="bareFoot">
-                        <label for="bareFoot">NOTHING</label>
-                        <input type="radio" name="footwearstyle" id="snickers" value="snickers">
-                        <label for="snickers">Snickers</label>
-                        <input type="radio" name="footwearstyle" id="converse" value="converse">
-                        <label for="converse">Converse</label>
-                        <input type="radio" name="footwearstyle" id="dressShoes" value="dressShoes">
-                        <label for="dressShoes">Dress Shoes</label>
-                        <input type="radio" name="footwearstyle" id="highHeels" value="highHeels">
-                        <label for="highHeels">High Heels</label>
+                        
+                        <label for="bareFoot"><input class="radio-checkbox" type="radio" name="footwearstyle" id="bareFoot" value="bareFoot" checked>NOTHING</label>
+                        <label for="snickers"><input class="radio-checkbox" type="radio" name="footwearstyle" id="snickers" value="snickers">Snickers</label>
+                        <label for="converse"><input class="radio-checkbox" type="radio" name="footwearstyle" id="converse" value="converse">Converse</label>
+                        <label for="dressShoes"><input class="radio-checkbox" type="radio" name="footwearstyle" id="dressShoes" value="dressShoes">Dress Shoes</label>
+                        <label for="highHeels"><input class="radio-checkbox" type="radio" name="footwearstyle" id="highHeels" value="highHeels">High Heels</label>
                     </fieldset>
                     <div class="submit-button">
                         <input type="submit" value="Tell me my fortune!">
@@ -105,7 +81,10 @@
         </section>
 
         <section class="result">
-            <!-- This should have twitter thing -->
+            <div class="result__div box-shadow">
+
+                <h2>Your Fortune!</h2>
+            </div>
         </section>
     </div>
 
