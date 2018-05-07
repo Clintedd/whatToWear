@@ -12,8 +12,8 @@ const hairs = {
 
 const eyes = {
     prefix: "you will",
-    bareEyes: ["meet", "punch"],
-    glasses: ["kiss", "whip"],
+    bareEyes: ["meet", "make fun of"],
+    glasses: ["break dance with", "play peekaboo with"],
     sunGlasses: ["greet", "fight"],
     contactLenses: ["bite", "sue"]
 }
@@ -23,7 +23,7 @@ const mouths = {
     bareMouth: ["Donald Trump", "Robert Downey Jr", "Danny Pack", "Nicky Minaj"],
     lipstick: ["Ryan Christiani", "Ryan Gosling", "DJ.Khalid(cuz another one)"],
     beard: ["Kim Jong Un", "Justin Bieber", "Drake"],
-    mustache: ["Kiera "]
+    mustache: ["Keira Knightley", "John Travolta"]
 }
 
 const upperBodys = {
@@ -31,8 +31,8 @@ const upperBodys = {
     tShirt: ["Canada", "North Korea"],
     longsleevs: ["USA", "Russia"],
     tankTop: ["Brazil", "Croatia"],
-    dressShirt: ["France"],
-    blouse: ["South Korea"]
+    dressShirt: ["France", "Mexico"],
+    blouse: ["South Korea", "Chile"]
 }
 
 const lowerBodys = {
